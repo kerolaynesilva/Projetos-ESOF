@@ -1,7 +1,7 @@
 import re
 def password_test():
     while True:
-        password = raw_input('Entre com uma senha para o teste: ')
+        password = raw_input('Enter with the password: ')
 
         tamanhoRegex = re.compile(r'.{8,}')
         if tamanhoRegex.search(password) != None:
